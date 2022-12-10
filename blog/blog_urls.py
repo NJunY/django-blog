@@ -20,4 +20,5 @@ Including another URLconf
 urlpatterns = [
     # path('create',view=blog.create, name='blog')
     # path('update',view=)
+    path('search', view=SearchBlogView.as_view())
 ]
